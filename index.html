@@ -9,16 +9,163 @@
     <meta property="og:title" content="六角學院「響應式網站」最終作業">
     <meta property="og:description" content="六角學院「響應式網站」課程中的最終作業，以展示學員學習的成果。">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="">
+    <meta property="og:url" content="https://obvy147.github.io/Hexschool-RWD-Final/">
     <meta property="og:image" content="images/hexschool-logo">
  
-    <title>Hex School 響應式網站 最終作業</title>
+    <title>六角西餐廳</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/4d0277b628.js" crossorigin="anonymous"></script>
     <script src="js/jquery-3.7.1.min.js"></script>
-    <script src="js/all.js"></script>
-    
+    <script src="js/all.js"></script>    
 </head>
 <body>
-    
+    <div class="wrap">
+        <div class="header">
+            <div class="topbar">
+                <a href="login.html" class="login"><i class="fa-regular fa-circle-user"></i></a>
+                <h2>
+                    <a href="index.html" class="logo">六角西餐廳</a>
+                </h2>
+                <ul class="menu">
+                    <li><a href="#intro">特色</a></li>
+                    <li><a href="#chef">主廚</a></li>
+                    <li><a href="#form">地圖</a></li>
+                    <li><a href="cart.html">訂餐</a></li>
+                </ul>
+                <a href="#" class="show-menu"><i class="fa-solid fa-bars"></i></a>
+            </div>
+            <div class="header-text">
+                <h3>咬一口就無法忘懷的漢堡</h3>
+                <p>七夕絕對無法錯過的好滋味
+                    <br><i class="fa-solid fa-utensils"></i>六角大漢堡<i class="fa-solid fa-utensils"></i>
+                </p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="intro" id="intro">
+                <h3 class="double-line">客人總是在詢問<br>這麼好吃的秘訣是什麼</h3>
+                <ul class="feature">
+                    <li>
+                        <img src="images/feature_1.png" alt="蔬菜圖">
+                        <h3>台灣本土蔬菜</h3>
+                        <p>
+                            In hac habitasse platea dictumst. Vivamus adipiscing fermentum quam volutpat aliquam. Integer et elit eget elit facilisis tristique. Nam vel iaculis mauris.
+                        </p>
+                    </li>
+                    <li>
+                        <img src="images/feature_2.png" alt="廚師背面照">
+                        <h3>專業米其林廚師</h3>
+                        <p>
+                            Sed ullamcorper tellus erat, non ultrices sem tincidunt euismod. Fusce rhoncus porttitor velit, eu bibendum nibh aliquet vel. Fusce lorem leo, vehicula at nibh quis, facilisis accumsan turpis.
+                        </p>
+                    </li>
+                    <li>
+                        <img src="images/feature_3.png" alt="料理桌的照片">
+                        <h3>對於專業不能退讓</h3>
+                        <p>
+                            Fusce rhoncus porttitor velit, eu bibendum nibh aliquet vel. Fusce lorem leo, vehicula at nibh quis, facilisis accumsan turpis.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="chef" id="chef">
+                <img src="images/main_chef_brown.png" alt="主廚照">
+                <div class="chef-text">
+                    <h3>今日主廚：帕金森、梅在帕</h3>
+                    <h4>Tody Chef: Plum in Shock</h4>
+                    <p>Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum sed varius at, adipiscing vitae est. Sed nec felis pellentesque, lacinia dui sed, ultricies sapien. Pellentesque orci lectus, consectetur vel posuere posuere, rutrum eu ipsum. Aliquam eget odio sed ligula iaculis consequat at eget orci. Mauris molestie sit amet metus mattis varius. Donec sit amet ligula eget nisi sodales egestas. Aliquam interdum dolor aliquet dolor sollicitudin fermentum. Donec congue lorem a molestie bibendum.</p>
+                </div>
+            </div>
+            <div class="thoughts">
+                <h3>聽聽別人的感想</h3>
+                <ul class="avatar">
+                    <li class="avatar-li">
+                        <img src="images/avatar_1.png" alt="高雄一口吃的頭貼">
+                        <div class="avatar-text">
+                            <h4>高雄一口吃</h4>
+                            <p>自從吃了這家餐廳以後，我口水連續流了一個多月都沒停，下次不要再被我遇到，不然我一定連他們桌子都啃下去。</p>
+                            <p class="avatar-name">--產品經理<p>
+                        </div>
+                    </li>
+                    <li class="avatar-li">
+                        <img src="images/avatar_2.png" alt="廟口小霸王的頭貼">
+                        <div class="avatar-text">
+                            <h4>廟口小霸王</h4>
+                            <p>自從吃了這家餐廳以後，我口水連續流了一個多月都沒停，下次不要再被我遇到，不然我一定連他們桌子都啃下去。</p>
+                            <p class="avatar-name">--金身道士</p>
+                        </div>
+                    </li>
+                    <li class="avatar-li">
+                        <img src="images/avatar_3.png" alt="春天也來了的頭貼">
+                        <div class="avatar-text">
+                            <h4>春天也來了</h4>
+                            <p>自從吃了這家餐廳以後，我口水連續流了一個多月都沒停，下次不要再被我遇到，不然我一定連他們桌子都啃下去。</p>
+                            <p class="avatar-name">--美麗萬分</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <form action="index.html" id="form">
+                <h3>我們的位置不太夠坐<br>
+                    要不要先定位呢？
+                </h3>
+                <div class="form-content">
+                    <img src="images/Map.png" alt="六角西餐廳地圖指標">
+                    <div class="form-reservation">
+                        <label for="name">姓名</label>
+                        <input type="text" placeholder="請輸入名字" id="name" name="name" class="input-normal">
+                        <label for="tel">電話</label>
+                        <input type="tel" placeholder="09xx-xxx-xxx" id="tel" name="tel" class="input-normal">
+                        <label for="mail">信箱</label>
+                        <input type="mail" placeholder="test@gmail.com" id="mail" name="mail" class="input-normal">
+                        <label for="number">人數</label>
+                        <input type="number" id="number" name="number" class="input-normal">
+                        <span>是否需要素食</span>
+                        <div class="radio">
+                            <label>是</label>
+                            <input type="radio" name="vegetarian" value="yes">
+                            <label>否</label>
+                            <input type="radio" name="vegetarian" value="no"> 
+                        </div>
+                        <div class="submit">
+                            <input type="submit" value="取消" class="gray">
+                            <input type="submit" value="送出" class="orange">
+                        </div>
+                    </div>
+                </div>
+
+            </form>
+        </div>
+        <div class="footer">
+            <div class="about">
+                <h3>關於 六角西餐廳</h3>
+                <p>
+                    Curabitur lobortis id lorem id bibndum. Ut id consectetur magna. Quisque volutpat augue enim, pulvinar lobortis nibh lacinia at. 
+                </p>
+            </div>
+            <div class="contact">
+                <h3>聯絡方式</h3>
+                <ul class="contact-ul">
+                    <li>
+                        <address>高雄市中正五路到底</address>
+                    </li>
+                    <li>
+                        <a href="tel:+886 886 886">+886 886 886</a>
+                    </li>
+                    <li>
+                        <a href="mailto:service@hexschool.com">service@hexschool.com</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-logo">
+                <h2><a href="index.html" class="big-logo">六角西餐廳</a></h2>
+                <div class="icon">
+                    <a href="#"><img src="images/google_icon.png" alt="google_icon"></a>
+                    <a href="#"><img src="images/twitter_icon.png" alt="twitter_icon"></a>
+                </div>
+                <a href="#" class="top"><i class="fa-solid fa-circle-arrow-up"></i></a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
